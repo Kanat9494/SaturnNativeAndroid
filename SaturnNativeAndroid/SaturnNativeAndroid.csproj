@@ -10,6 +10,6 @@
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
   </PropertyGroup>
   <ItemGroup>
-    <None Remove="Resources\values\styles.xml" />
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.10.0.2" />
   </ItemGroup>
 </Project>

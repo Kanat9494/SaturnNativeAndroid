@@ -4,16 +4,24 @@ public class MenuItemSelectedListener : Java.Lang.Object, NavigationBarView.IOnI
 {
     public bool OnNavigationItemSelected(IMenuItem item)
     {
-        switch (item.ItemId)
+        //switch (item.ItemId)
+        //{
+        //    case Resource.Id.person:
+        //        return true;
+        //    case Resource.Id.secondFragment:
+        //        return true;
+        //    case Resource.Id.thirdFragment:
+        //        return true;
+        //    default:
+        //        return false;
+        //}
+        int menuItemId = item.ItemId;
+
+        if (menuItemId == Resource.Id.person)
         {
-            case Resource.Id.person:
-                return true;
-            case Resource.Id.secondFragment:
-                return true;
-            case Resource.Id.thirdFragment:
-                return true;
-            default:
-                return false;
+
+            return true;
         }
+        return false;
     }
 }

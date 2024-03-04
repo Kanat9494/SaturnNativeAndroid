@@ -10,6 +10,12 @@
     <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.10.0.2" />
+    <None Remove="Resources\layout\fragment_first.xml" />
+    <None Remove="Resources\layout\fragment_second.xml" />
+    <None Remove="Resources\layout\fragment_third.xml" />
+    <None Remove="Resources\menu\bottom_nav_menu.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Google.Android.Material" Version="1.10.0.3" />
   </ItemGroup>
 </Project>

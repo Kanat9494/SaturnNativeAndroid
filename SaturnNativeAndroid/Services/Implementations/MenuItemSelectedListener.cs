@@ -6,7 +6,7 @@ public class MenuItemSelectedListener : Java.Lang.Object, NavigationBarView.IOnI
     {
         switch (item.ItemId)
         {
-            case Resource.Id.firstFragment:
+            case Resource.Id.person:
                 return true;
             case Resource.Id.secondFragment:
                 return true;

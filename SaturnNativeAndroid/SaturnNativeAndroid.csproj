@@ -14,6 +14,7 @@
     <None Remove="Resources\layout\fragment_second.xml" />
     <None Remove="Resources\layout\fragment_third.xml" />
     <None Remove="Resources\menu\bottom_nav_menu.xml" />
+    <None Remove="Resources\values\themes.xml" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Google.Android.Material" Version="1.10.0.3" />
